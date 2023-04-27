@@ -1,4 +1,4 @@
-package yukams.app.background_locator_2
+package com.yukams.background_locator_2
 
 class Keys {
     companion object {
@@ -24,31 +24,31 @@ class Keys {
         val DISPOSE_CALLBACK_HANDLE_KEY = "DISPOSE_CALLBACK_HANDLE_KEY"
 
         @JvmStatic
-        val CHANNEL_ID = "app.yukams/locator_plugin"
+        val CHANNEL_ID = "com.yukams.background_locator_2.locator_plugin"
 
         @JvmStatic
-        val BACKGROUND_CHANNEL_ID = "app.yukams/locator_plugin_background"
+        val BACKGROUND_CHANNEL_ID = "com.yukams.background_locator_2.locator_plugin_background"
 
         @JvmStatic
-        val METHOD_SERVICE_INITIALIZED = "LocatorService_initialized"
+        val METHOD_SERVICE_INITIALIZED = "com.yukams.background_locator_2.LocatorService_initialized"
 
         @JvmStatic
-        val METHOD_PLUGIN_INITIALIZE_SERVICE = "LocatorPlugin_initializeService"
+        val METHOD_PLUGIN_INITIALIZE_SERVICE = "com.yukams.background_locator_2.LocatorPlugin_initializeService"
 
         @JvmStatic
-        val METHOD_PLUGIN_REGISTER_LOCATION_UPDATE = "LocatorPlugin_registerLocationUpdate"
+        val METHOD_PLUGIN_REGISTER_LOCATION_UPDATE = "com.yukams.background_locator_2.LocatorPlugin_registerLocationUpdate"
 
         @JvmStatic
-        val METHOD_PLUGIN_UN_REGISTER_LOCATION_UPDATE = "LocatorPlugin_unRegisterLocationUpdate"
+        val METHOD_PLUGIN_UN_REGISTER_LOCATION_UPDATE = "com.yukams.background_locator_2.LocatorPlugin_unRegisterLocationUpdate"
 
         @JvmStatic
-        val METHOD_PLUGIN_IS_REGISTER_LOCATION_UPDATE = "LocatorPlugin_isRegisterLocationUpdate"
+        val METHOD_PLUGIN_IS_REGISTER_LOCATION_UPDATE = "com.yukams.background_locator_2.LocatorPlugin_isRegisterLocationUpdate"
 
         @JvmStatic
-        val METHOD_PLUGIN_IS_SERVICE_RUNNING = "LocatorPlugin_isServiceRunning"
+        val METHOD_PLUGIN_IS_SERVICE_RUNNING = "com.yukams.background_locator_2.LocatorPlugin_isServiceRunning"
 
         @JvmStatic
-        val METHOD_PLUGIN_UPDATE_NOTIFICATION = "LocatorPlugin_updateNotification"
+        val METHOD_PLUGIN_UPDATE_NOTIFICATION = "com.yukams.background_locator_2.LocatorPlugin_updateNotification"
 
         @JvmStatic
         val ARG_INIT_CALLBACK = "initCallback"

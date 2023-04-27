@@ -1,9 +1,9 @@
-package yukams.app.background_locator_2
+package com.yukams.background_locator_2
 
 import android.content.Context
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import yukams.app.background_locator_2.provider.LocationClient
+import com.yukams.background_locator_2.provider.LocationClient
 
 class PreferencesManager {
     companion object {

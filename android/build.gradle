@@ -1,4 +1,4 @@
-group 'yukams.app.background_locator_2'
+group 'com.yukams.background_locator_2'
 version '1.0-SNAPSHOT'
 
 buildscript {

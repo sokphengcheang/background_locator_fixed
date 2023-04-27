@@ -15,16 +15,16 @@ NSString *const kInitCallbackKey = @"init_callback_handle_key";
 NSString *const kInitDataCallbackKey = @"init_data_callback_key";
 NSString *const kDisposeCallbackKey = @"dispose_callback_handle_key";
 NSString *const kDistanceFilterKey = @"distance_filter_key";
-NSString *const kChannelId = @"app.yukams/locator_plugin";
-NSString *const kBackgroundChannelId = @"app.yukams/locator_plugin_background";
+NSString *const kChannelId = @"com.yukams.background_locator_2.locator_plugin";
+NSString *const kBackgroundChannelId = @"com.yukams.background_locator_2.locator_plugin_background";
 
-NSString *const kMethodServiceInitialized = @"LocatorService_initialized";
-NSString *const kMethodPluginInitializeService = @"LocatorPlugin_initializeService";
-NSString *const kMethodPluginRegisterLocationUpdate = @"LocatorPlugin_registerLocationUpdate";
-NSString *const kMethodPluginUnRegisterLocationUpdate = @"LocatorPlugin_unRegisterLocationUpdate";
-NSString *const kMethodPluginIsRegisteredLocationUpdate = @"LocatorPlugin_isRegisterLocationUpdate";
-NSString *const kMethodPluginIsServiceRunning = @"LocatorPlugin_isServiceRunning";
-NSString *const kMethodPluginUpdateNotification = @"LocatorPlugin_updateNotification";
+NSString *const kMethodServiceInitialized = @"com.yukams.background_locator_2.LocatorService_initialized";
+NSString *const kMethodPluginInitializeService = @"com.yukams.background_locator_2.LocatorPlugin_initializeService";
+NSString *const kMethodPluginRegisterLocationUpdate = @"com.yukams.background_locator_2.LocatorPlugin_registerLocationUpdate";
+NSString *const kMethodPluginUnRegisterLocationUpdate = @"com.yukams.background_locator_2.LocatorPlugin_unRegisterLocationUpdate";
+NSString *const kMethodPluginIsRegisteredLocationUpdate = @"com.yukams.background_locator_2.LocatorPlugin_isRegisterLocationUpdate";
+NSString *const kMethodPluginIsServiceRunning = @"com.yukams.background_locator_2.LocatorPlugin_isServiceRunning";
+NSString *const kMethodPluginUpdateNotification = @"com.yukams.background_locator_2.LocatorPlugin_updateNotification";
 
 NSString *const kArgLatitude = @"latitude";
 NSString *const kArgLongitude = @"longitude";

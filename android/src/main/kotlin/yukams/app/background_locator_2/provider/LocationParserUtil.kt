@@ -1,9 +1,9 @@
-package yukams.app.background_locator_2.provider
+package com.yukams.background_locator_2.provider
 
 import android.location.Location
 import android.os.Build
 import com.google.android.gms.location.LocationResult
-import yukams.app.background_locator_2.Keys
+import com.yukams.background_locator_2.Keys
 import java.util.HashMap
 
 class LocationParserUtil {
