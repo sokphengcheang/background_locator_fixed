@@ -1,4 +1,4 @@
-package yukams.app.background_locator_example
+package com.yukams.background_locator_2
 
 import io.flutter.embedding.android.FlutterActivity
 

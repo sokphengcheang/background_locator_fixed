@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="yukams.app.background_locator_example"
+    package="com.yukams.background_locator_2"
     >
 
     <uses-permission android:name="android.permission.INTERNET" />
