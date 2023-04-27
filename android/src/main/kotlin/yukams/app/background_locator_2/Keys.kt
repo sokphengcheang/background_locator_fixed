@@ -30,25 +30,25 @@ class Keys {
         val BACKGROUND_CHANNEL_ID = "app.yukams/locator_plugin_background"
 
         @JvmStatic
-        val METHOD_SERVICE_INITIALIZED = "LocatorService.initialized"
+        val METHOD_SERVICE_INITIALIZED = "LocatorService_initialized"
 
         @JvmStatic
-        val METHOD_PLUGIN_INITIALIZE_SERVICE = "LocatorPlugin.initializeService"
+        val METHOD_PLUGIN_INITIALIZE_SERVICE = "LocatorPlugin_initializeService"
 
         @JvmStatic
-        val METHOD_PLUGIN_REGISTER_LOCATION_UPDATE = "LocatorPlugin.registerLocationUpdate"
+        val METHOD_PLUGIN_REGISTER_LOCATION_UPDATE = "LocatorPlugin_registerLocationUpdate"
 
         @JvmStatic
-        val METHOD_PLUGIN_UN_REGISTER_LOCATION_UPDATE = "LocatorPlugin.unRegisterLocationUpdate"
+        val METHOD_PLUGIN_UN_REGISTER_LOCATION_UPDATE = "LocatorPlugin_unRegisterLocationUpdate"
 
         @JvmStatic
-        val METHOD_PLUGIN_IS_REGISTER_LOCATION_UPDATE = "LocatorPlugin.isRegisterLocationUpdate"
+        val METHOD_PLUGIN_IS_REGISTER_LOCATION_UPDATE = "LocatorPlugin_isRegisterLocationUpdate"
 
         @JvmStatic
-        val METHOD_PLUGIN_IS_SERVICE_RUNNING = "LocatorPlugin.isServiceRunning"
+        val METHOD_PLUGIN_IS_SERVICE_RUNNING = "LocatorPlugin_isServiceRunning"
 
         @JvmStatic
-        val METHOD_PLUGIN_UPDATE_NOTIFICATION = "LocatorPlugin.updateNotification"
+        val METHOD_PLUGIN_UPDATE_NOTIFICATION = "LocatorPlugin_updateNotification"
 
         @JvmStatic
         val ARG_INIT_CALLBACK = "initCallback"

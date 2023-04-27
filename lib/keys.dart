@@ -3,19 +3,19 @@ class Keys {
   static const String BACKGROUND_CHANNEL_ID =
       'app.yukams/locator_plugin_background';
 
-  static const String METHOD_SERVICE_INITIALIZED = 'LocatorService.initialized';
+  static const String METHOD_SERVICE_INITIALIZED = 'LocatorService_initialized';
   static const String METHOD_PLUGIN_INITIALIZE_SERVICE =
-      'LocatorPlugin.initializeService';
+      'LocatorPlugin_initializeService';
   static const String METHOD_PLUGIN_REGISTER_LOCATION_UPDATE =
-      'LocatorPlugin.registerLocationUpdate';
+      'LocatorPlugin_registerLocationUpdate';
   static const String METHOD_PLUGIN_UN_REGISTER_LOCATION_UPDATE =
-      'LocatorPlugin.unRegisterLocationUpdate';
+      'LocatorPlugin_unRegisterLocationUpdate';
   static const String METHOD_PLUGIN_IS_REGISTER_LOCATION_UPDATE =
-      'LocatorPlugin.isRegisterLocationUpdate';
+      'LocatorPlugin_isRegisterLocationUpdate';
   static const String METHOD_PLUGIN_IS_SERVICE_RUNNING =
-      'LocatorPlugin.isServiceRunning';
+      'LocatorPlugin_isServiceRunning';
   static const String METHOD_PLUGIN_UPDATE_NOTIFICATION =
-      'LocatorPlugin.updateNotification';
+      'LocatorPlugin_updateNotification';
 
   static const String ARG_IS_MOCKED = 'is_mocked';
   static const String ARG_LATITUDE = 'latitude';

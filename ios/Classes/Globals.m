@@ -18,13 +18,13 @@ NSString *const kDistanceFilterKey = @"distance_filter_key";
 NSString *const kChannelId = @"app.yukams/locator_plugin";
 NSString *const kBackgroundChannelId = @"app.yukams/locator_plugin_background";
 
-NSString *const kMethodServiceInitialized = @"LocatorService.initialized";
-NSString *const kMethodPluginInitializeService = @"LocatorPlugin.initializeService";
-NSString *const kMethodPluginRegisterLocationUpdate = @"LocatorPlugin.registerLocationUpdate";
-NSString *const kMethodPluginUnRegisterLocationUpdate = @"LocatorPlugin.unRegisterLocationUpdate";
-NSString *const kMethodPluginIsRegisteredLocationUpdate = @"LocatorPlugin.isRegisterLocationUpdate";
-NSString *const kMethodPluginIsServiceRunning = @"LocatorPlugin.isServiceRunning";
-NSString *const kMethodPluginUpdateNotification = @"LocatorPlugin.updateNotification";
+NSString *const kMethodServiceInitialized = @"LocatorService_initialized";
+NSString *const kMethodPluginInitializeService = @"LocatorPlugin_initializeService";
+NSString *const kMethodPluginRegisterLocationUpdate = @"LocatorPlugin_registerLocationUpdate";
+NSString *const kMethodPluginUnRegisterLocationUpdate = @"LocatorPlugin_unRegisterLocationUpdate";
+NSString *const kMethodPluginIsRegisteredLocationUpdate = @"LocatorPlugin_isRegisterLocationUpdate";
+NSString *const kMethodPluginIsServiceRunning = @"LocatorPlugin_isServiceRunning";
+NSString *const kMethodPluginUpdateNotification = @"LocatorPlugin_updateNotification";
 
 NSString *const kArgLatitude = @"latitude";
 NSString *const kArgLongitude = @"longitude";
